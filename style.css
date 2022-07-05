@@ -71,7 +71,7 @@ h2 {
   font-weight: 600;
 }
 .item4 {
-  width: 31vw;
+  width: 43%;
   padding: 2vw 2vw;
   box-shadow: 5px 5px 50px grey;
   margin: 0 2vh;
@@ -79,11 +79,11 @@ h2 {
 }
 
 #yy {
-  width: fit-content;
+  width: 70vw;
 
-  height: 60vh;
+  height: 70vh;
   
-  margin-bottom: 7vh;
+  margin: 0 auto 7vh;
 }
 .food {
   width: 100%;
