@@ -1,6 +1,6 @@
 body {
-  width: 75%;
-  margin: 0 auto;
+  width: 75vw;
+  margin: 3vh auto;
   font-family: "Montserrat", sans-serif;
   padding: 5px;
   background-color: rgb(228, 231, 236);
@@ -8,7 +8,7 @@ body {
   box-shadow: 5px 5px 70px white;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 3vw;
 }
 .colour {
   color: rgb(243, 124, 26);
@@ -19,50 +19,45 @@ h1 {
   border-radius: 25px;
 }
 .item {
-  width: 45%;
-  padding: 6.9%;
+  width: 30vw;
+  padding: 6.9%  0% 6.9% 6.9% ;
 }
 img {
   width: 100%;
 }
 p {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   margin: 35px 0 50px;
   color: rgb(140, 135, 135);
 }
 a {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1vw;
   background-image: linear-gradient(tomato, rgb(247, 120, 57));
   border-radius: 30px;
   padding: 19px 30px;
-  font-weight: 550;
+  font-weight: 600;
   color: rgb(255, 254, 254);
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.7vw;
 }
 .i2 {
   background-image: url(7.png);
   background-size: contain;
-  height: 70vh;
+  height: fit-content;
   margin-bottom: 10vh;
 }
 #i1 {
-  padding-bottom: 20vh;
-  width: 55%;
+  width: 40vw;
 }
 .hero {
-  height: 55vh;
-  width: 50vh;
-  position: absolute;
-  top: 9.5vh;
-  right: 18.6vw;
+  width: 40vw;
+  
 }
 #i3 {
-  padding: 0;
-  position: relative;
-  top: 10vh;
+  width: 45vw;
+  padding: 0 0vh 0 0vh;
 }
 .center {
   text-align: center;
@@ -72,46 +67,57 @@ h2 {
   margin: auto;
 }
 .normal {
-  font-size: 1em;
+  font-size:1vw;
   font-weight: 600;
 }
 .item4 {
-  width: 45%;
+  width: 31vw;
   padding: 2vw 2vw;
   box-shadow: 5px 5px 50px grey;
   margin: 0 2vh;
-  border-radius: 2em;
+  border-radius: 1.5vw;
 }
 
 #yy {
   width: fit-content;
 
   height: 60vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  
+  margin-bottom: 7vh;
 }
 .food {
-  height: 65%;
+  width: 100%;
   border-radius: 2em;
+  height: 70%;
 }
 #data {
   display: flex;
   justify-content: space-between;
-  padding: 15px 200px;
+  padding: 15px 10vw;
   box-shadow: 5px 5px 40px grey;
-  margin-bottom: 60px;
+  margin-bottom: 7vh;
   border-radius: 20px;
 }
 .p {
-  margin: 0 0 50px;
+  margin: 0 0 5vh;
 }
 #data h1 {
-  margin: 50px 0 0 0;
+  margin: 7vh 0 0 0;
 }
 footer {
   background-image: linear-gradient(rgb(15, 15, 16), rgb(83, 72, 83));
-  padding: 30px 0;
+  padding: 3vh 0;
   color: rgb(140, 149, 157);
   margin-bottom: 10px;
   border-radius: 15px;
+}
+#girl {
+  width: 25vw;
+}
+#first {
+  margin-bottom: 7vh;
+}
+#second
+{
+  margin-bottom: 7vh;
 }
